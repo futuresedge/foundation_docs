@@ -4,12 +4,20 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
+import { ion } from "starlight-ion-theme";
+import icon from "astro-icon";
+import { locate } from "@iconify/json";
+
+const huge = locate("hugeicons");
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
+    [icon()],
     starlight({
       title: "Future's Edge",
+      plugins: [ion()],
+      lastUpdated: true,
       social: {
         github: "https://github.com/futuresedge",
       },
@@ -42,6 +50,10 @@ export default defineConfig({
         // },
       ],
       customCss: ["./src/tailwind.css"],
+      // components: {
+      //   // Override the default Hero component.
+      //   Hero: "./src/components/Hero.astro",
+      // },
     }),
     tailwind({ applyBaseStyles: false }),
   ],

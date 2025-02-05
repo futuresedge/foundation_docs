@@ -1,7 +1,7 @@
 ---
 id: governance
-title: Governance
-sidebar_position: 2
+title: Overview
+sidebar_position: 1
 description: ""
 # image: ""
 tags: []
