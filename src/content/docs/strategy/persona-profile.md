@@ -1,14 +1,18 @@
 ---
 id: persona-profile
 title: Persona Profile
-# sidebar_position: 
-description: ""
-# image: ""
+slug: strategy/persona-profile
+description: "The cover page for the Future's Edge Strategy Documents."
+sidebar:
+  label: Persona Profile
+  order: 3
 tags: []
-draft: false
+# draft: false
 # keywords: []
-author: ""
+author: "Pete Argent"
 contributors: []
+graph:
+  visible: true
 ---
 
 **Future’s Edge Ideal Member Profile**

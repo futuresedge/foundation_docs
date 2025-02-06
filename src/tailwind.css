@@ -1,3 +1,38 @@
+/** @format */
+
+/* @import url("https://fonts.cdnfonts.com/css/zosilla");
+@import url("https://fonts.cdnfonts.com/css/kuiper-belt");
+@import url("https://fonts.cdnfonts.com/css/nova-display");
+@import url("https://fonts.cdnfonts.com/css/icewave");
+@import url("https://fonts.cdnfonts.com/css/minal");
+@import url("https://fonts.cdnfonts.com/css/patinio-contexto");
+@import url("https://fonts.cdnfonts.com/css/maxter-board-st");
+@import url("https://fonts.cdnfonts.com/css/jupiteroid"); */
+/* @import url("https://api.fontshare.com/v2/css?f[]=excon@1&f[]=array@700&display=swap"); */
+/* @import url("https://fonts.cdnfonts.com/css/velocista"); */
+/* @import url("https://fonts.cdnfonts.com/css/fourkid"); */
+/* @import url("https://fonts.cdnfonts.com/css/horticulture"); */
+/* @import url("https://fonts.cdnfonts.com/css/michelin-2"); */
+/* @import url("https://fonts.cdnfonts.com/css/war-eagle"); */
+/* @import url("https://fonts.cdnfonts.com/css/bizmo-trial"); */
+/* @import url("https://fonts.cdnfonts.com/css/crosswinds"); */
+/* @import url("https://fonts.cdnfonts.com/css/lbc-starlight"); */
+/* @import url("https://fonts.cdnfonts.com/css/game-font-7"); */
+/* @import url("https://fonts.cdnfonts.com/css/astron-boy-video"); */
+/* @import url("https://fonts.cdnfonts.com/css/sd-prostreet"); */
+/* @import url("https://fonts.cdnfonts.com/css/aspace"); */
+/* @import url("https://fonts.cdnfonts.com/css/starfleet"); */
+/* @import url("https://fonts.cdnfonts.com/css/another-x-display-tfb"); */
+/* @import url("https://fonts.cdnfonts.com/css/strike-fighter"); */
+/* @import url("https://fonts.cdnfonts.com/css/free-agent"); */
+/* @import url("https://fonts.cdnfonts.com/css/mute-fruit"); */
+/* @import url("https://fonts.cdnfonts.com/css/bpdotsunicase"); */
+/* @import url("https://fonts.cdnfonts.com/css/sinema"); */
+@import url("https://fonts.cdnfonts.com/css/americorps");
+/* @import url("https://fonts.cdnfonts.com/css/tempest-apache"); */
+/* @import url("https://fonts.cdnfonts.com/css/mobile-man"); */
+/* @import url("https://fonts.cdnfonts.com/css/karmatic-arcade"); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,3 +41,69 @@
 Add additional Tailwind styles to this file, for example with @layer:
 https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
+:root {
+  /* --font-sans: "zosilla", sans-serif; */
+  /* --sl-text-base: 24px; */
+  /* --sl-content-width: 1500px; */
+  /* --sl-color-text-accent: #4DEDED; */
+  --sl-color-text-accent: #eded4d;
+}
+
+header.header
+  div.header.sl-flex
+  div.title-wrapper.sl-flex
+  a.site-title.sl-flex
+  span {
+  font-family: "Americorps Halftone", sans-serif;
+  /* font-family: "Dynamic brk", sans-serif; */
+  /* text-transform: uppercase; */
+  font-weight: 400;
+  font-style: italic;
+}
+.hero h1 {
+  /* font-family: "maxter board st", sans-serif; */
+  font-family: "Americorps Outline Extra-Condensed", sans-serif;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+}
+.hero {
+  background-image: url("assets/CodeRed.jpg");
+  height: 80vh;
+  /* width: 100vw; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  padding: 50px;
+  display: flex;
+  align-items: end;
+  .sl-link-button {
+    margin: 15px;
+    font-weight: 700;
+    /* font-family: "velocista", sans-serif; */
+  }
+}
+.hero .tagline:where(.astro-jbfsktt5) {
+  font-size: clamp(var(--sl-text-lg), calc(0.0625rem + 2vw), var(--sl-text-xl));
+  font-weight: 700;
+}
+.sl-link-button:where(.astro-xwgiixxa).primary {
+  border-radius: 10px;
+  padding: 0px 20px;
+  font-style: italic;
+}
+.sl-link-button:where(.astro-xwgiixxa).primary:hover {
+  color: var(--sl-color-white);
+  background-color: var(--sl-color-primary-500);
+}
+
+.card {
+  border-radius: 20px;
+}
+/* 
+@media (min-width: 50rem) {
+  .sl-link-button.primary {
+    border-radius: 10px;
+    padding: 0px 10px;
+  }
+} */

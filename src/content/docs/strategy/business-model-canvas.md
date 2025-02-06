@@ -1,14 +1,18 @@
 ---
 id: business-model-canvas
 title: Business Model Canvas
-# sidebar_position: 1
-description: "Future's Edge strategy"
-# image: ""
+slug: strategy/business-model-canvas
+description: "The cover page for the Future's Edge Strategy Documents."
+sidebar:
+  label: Business Model Canvas
+  order: 2
 tags: []
-draft: false
+# draft: false
 # keywords: []
-author: ""
+author: "Pete Argent"
 contributors: []
+graph:
+  visible: true
 ---
 
 **Future’s Edge Business Model Canvas**

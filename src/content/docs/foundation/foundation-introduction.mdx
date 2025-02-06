@@ -1,13 +1,15 @@
 ---
-id: foundation
-title: Introduction
-sidebar_position: 1
-description: ""
-image: "Cover.jpg"
+id: foundation-introduction
+title: Foundational Documents
+slug: foundation/foundation-introduction
+description: "The cover page for the Future's Edge Foundational Documents."
+sidebar:
+  label: Introduction
+  order: 1
 tags: []
-draft: false
+# draft: false
 # keywords: []
-author: ""
+author: "Pete Argent"
 contributors: []
 graph:
   visible: true
@@ -16,31 +18,39 @@ graph:
 import { Card, LinkCard, CardGrid, LinkButton } from '@astrojs/starlight/components';
 
 
-**Welcome to the Future’s Edge Founding Documents**
+## Welcome to the Future’s Edge Founding Documents
 
-import { ShowcaseText } from 'starlight-showcases'
+import { ShowcaseText, ShowcaseProfile } from 'starlight-showcases'
 
-<ShowcaseText
+<ShowcaseProfile
   entries={[
     {
-      href: 'https://github.com/HiDeoo/starlight-links-validator',
-      title: 'starlight-links-validator',
-      description: 'Check for broken links in your Starlight pages.',
+      name: 'Vision',
+      picture: import('../../../assets/picture.svg'),
+      href: './vision/',
+      description:
+        "The 5 year vision and beyond for Future's Edge.",
+    },
+    {
+      name: 'Mission',
+      picture:import('../../../assets/clipboard.svg'),
+      href: './mission/',
+      description:
+        "The 5 year mission to build a fairer future.",
+    },
+    {
+      name: 'Values',
+      picture: import('../../../assets/compass.svg'),
+      href: './values/',
+      description:
+        "The core values at Future's Edge.",
     },
   ]}
 />
 
-<CardGrid>
-  <LinkCard title="👁️ 5 Year Vision" href="/foundation/vision/" />
-  <LinkCard title="🎯 5 Year Mission" href="/foundation/mission/" />
-  <LinkCard title="🌍 Core Values" href="/foundation/values/" />
-  <LinkCard title="🏆 Strategy Docs" href="/foundation/strategy/" />
-  <LinkCard title="📜 Governance Overview" href="/governance/" />
-  <LinkCard title="📗 Special Agent Handbook" href="/agent-handbook/" />
-</CardGrid>
 
 
-## **Introduction**
+## Introduction
 
 Welcome to the **Future’s Edge Founding Documents**, the cornerstone of our movement. This section serves as the definitive guide to our **vision, mission, values, and strategy**; ensuring transparency, alignment, and collective ownership as we shape the future together.
 
@@ -48,16 +58,16 @@ These documents are more than just references—they are **living agreements**, 
 
 ---
 
-## **What You’ll Find Here**
+## What You’ll Find Here
 
-### **1. Vision & Mission**
+### 1. Vision & Mission
 
 Understand the **why** behind Future’s Edge:
 
 - Our **vision** for a decentralized, opportunity-rich future.
 - The **mission** that guides our collective efforts and impact.
 
-### **2. Core Values**
+### 2. Core Values
 
 The principles that define how we operate and collaborate:
 
@@ -67,13 +77,10 @@ The principles that define how we operate and collaborate:
 - Ethical Innovation
 - Lifelong Learning & Leadership
 
-### **3. Strategy & Roadmap**
-
-A high-level overview of our **strategic goals and priorities**, detailing how Future’s Edge will grow and adapt over the next five years.
 
 ---
 
-## **How to Use These Documents**
+## How to Use These Documents
 
 - **New Members**: Start here to understand the foundation of Future’s Edge.
 - **Contributors & Leaders**: Use these documents to align your work with our collective mission and values.

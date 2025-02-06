@@ -1,15 +1,18 @@
 ---
 title: Foundation Docs
 description: Begin your journey to the Edge
+sidebar:
+  label: Home
+  order: 1
 template: splash
 hero:
   title: Be all you can be
   tagline: Knowledge is power. Come get some!
-  image:
-    file: ../../assets/Hero.webp
+  # image:
+  #   file: ../../assets/Hero.webp
   actions:
-    - text: Foundation Docs
-      link: /foundation
+    - text: Explore the Edge
+      link: /foundation/foundation-introduction
       icon: right-arrow
     - text: Read the Handbooks
       link: /agent-handbook
@@ -19,19 +22,19 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Get started
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="5 Year Mission" icon="pencil">
+		Check out the vision, mission and values
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Special Agent Handbook" icon="add-document">
+		Available now
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Apply to join" icon="setting">
+		Register your interest to join the movement
 	</Card>
-	<Card title="Read the docs" icon="open-book">
+	{/* <Card title="" icon="open-book">
 		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+	</Card> */}
 </CardGrid>

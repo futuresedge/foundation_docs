@@ -11,6 +11,7 @@ author: ""
 contributors: []
 ---
 
+
 **Future’s Edge Governance Framework & Organizational Structure**
 
 ## **Strategic Objectives and Vision**
