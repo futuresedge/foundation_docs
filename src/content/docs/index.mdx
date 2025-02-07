@@ -5,6 +5,8 @@ sidebar:
   label: Home
   order: 1
 template: splash
+next: false
+prev: false
 hero:
   title: Be all you can be
   tagline: Knowledge is power. Come get some!
@@ -21,20 +23,46 @@ hero:
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { ShowcaseProfile } from 'starlight-showcases'
 
-## Get started
+---
+<div class="home-page">
 
-<CardGrid stagger>
-	<Card title="5 Year Mission" icon="pencil">
-		Check out the vision, mission and values
-	</Card>
-	<Card title="Special Agent Handbook" icon="add-document">
-		Available now
-	</Card>
-	<Card title="Apply to join" icon="setting">
-		Register your interest to join the movement
-	</Card>
-	{/* <Card title="" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card> */}
-</CardGrid>
+  
+<h2 class="">Choose <span class="primary">(your own)</span> adventure</h2>
+![Choose your own adventure](../../assets/ChooseAdventure.webp)
+
+### You already have what we're looking for
+<p>You have a unique combination of strengths, skills, interests and experiences — and that is very valuable to Future's Edge and the world!</p>
+![Choose your own adventure](../../assets/YouAreValued.webp)
+
+---
+
+### Experience life on the Edge
+
+<ShowcaseProfile
+  entries={[
+    {
+      name: 'Vision',
+      picture: import('../../assets/icons/picture.svg'),
+      href: './vision/',
+      description:
+        "The 5 year vision and beyond for Future's Edge.",
+    },
+    {
+      name: 'Mission',
+      picture:import('../../assets/icons/crosshair.1.svg'),
+      href: './mission/',
+      description:
+        "The 5 year mission to build a fairer future.",
+    },
+    {
+      name: 'Values',
+      picture: import('../../assets/icons/compass.svg'),
+      href: './values/',
+      description:
+        "The core values at Future's Edge.",
+    },
+  ]}
+/>
+</div>
