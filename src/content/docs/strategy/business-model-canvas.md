@@ -4,7 +4,7 @@ title: Business Model Canvas
 slug: strategy/business-model-canvas
 description: "The cover page for the Future's Edge Strategy Documents."
 sidebar:
-  label: Business Model Canvas
+  label: 01. Business Model Canvas
   order: 2
 tags: []
 # draft: false
@@ -15,9 +15,7 @@ graph:
   visible: true
 ---
 
-**Future’s Edge Business Model Canvas**
-
-## **1. Customer Segments**
+### 1. Customer Segments
 
 - **Primary Customers**: Youth (15–25) passionate about technology, creativity, leadership, and innovation.
 - **Early Adopters**: Young tech enthusiasts, students in STEM and humanities, aspiring entrepreneurs, activists, and digital nomads.
@@ -26,7 +24,7 @@ graph:
 
 ---
 
-## **2. Value Propositions**
+### 2. Value Propositions
 
 - **Empower Youth**: Help young people discover their strengths, develop future-ready skills, and build meaningful careers.
 - **Experiential Learning**: Gamified, self-directed learning and real-world project opportunities.
@@ -36,38 +34,38 @@ graph:
 
 ---
 
-## **3. Channels**
+### 3. Channels
 
-### **Awareness**
+#### Awareness
 
 - Social media campaigns (TikTok, YouTube, Twitter, Discord)
 - Partnerships with influencers, educators, and industry leaders
 - Hackathons, global challenges, and community events
 
-### **Research**
+#### Research
 
 - Engaging website with interactive content and testimonials
 - Webinars, podcasts, and AMAs featuring youth innovators
 - Community-led KnowledgeBank (wiki-style educational content)
 
-### **Purchase/Engage**
+#### Purchase/Engage
 
 - Free-tier membership with paid premium courses, consulting gigs, and project-based collaborations
 - Subscription-based learning paths for skill mastery
 
-### **Receive Goods/Service**
+#### Receive Goods/Service
 
 - Digital platform with AI-driven personalized learning journeys
 - DAO-governed project allocations and consulting opportunities
 
-### **Post Sales/Engagement Support**
+#### Post Sales/Engagement Support
 
 - Dedicated mentorship circles and peer support communities
 - Alumni network with ongoing job opportunities and collaboration invitations
 
 ---
 
-## **4. Customer Relationships**
+### 4. Customer Relationships
 
 - **Low-touch, scalable self-service**: Interactive courses, discussion forums, and automated learning paths.
 - **High-touch mentorship**: One-on-one mentorship, coaching, and networking events.
@@ -76,7 +74,7 @@ graph:
 
 ---
 
-## **5. Revenue Streams**
+### 5. Revenue Streams
 
 - **Subscription models**: Paid access to premium content, live mentoring, and advanced training.
 - **Project consulting**: Businesses pay for youth-led innovation and digital transformation services.
@@ -86,7 +84,7 @@ graph:
 
 ---
 
-## **6. Key Resources**
+### 6. Key Resources
 
 - **Intellectual Property**: Open-source learning frameworks, algorithms for personalized learning, governance structures.
 - **Human Capital**: Youth contributors, mentors, educators, industry advisors.
@@ -96,7 +94,7 @@ graph:
 
 ---
 
-## **7. Key Activities**
+### 7. Key Activities
 
 - **Building & Maintaining the Platform**: Developing and refining the digital ecosystem.
 - **Content & Course Creation**: Crowdsourced, expert-reviewed, and community-driven educational materials.
@@ -106,7 +104,7 @@ graph:
 
 ---
 
-## **8. Key Partners**
+### 8. Key Partners
 
 - **Universities & Research Institutions**: Providing knowledge resources, certifications, and funding for innovation.
 - **Tech Companies & Startups**: Offering mentorship, work opportunities, and sponsorships.
@@ -116,7 +114,7 @@ graph:
 
 ---
 
-## **9. Cost Structure**
+### 9. Cost Structure
 
 - **Platform Development & Maintenance**: Ongoing improvements to learning & governance systems.
 - **Content Production & Moderation**: Ensuring quality and engagement in the KnowledgeBank.
@@ -126,6 +124,6 @@ graph:
 
 ---
 
-## **Conclusion**
+### Conclusion
 
 Future’s Edge is a pioneering movement designed to **empower youth, redefine education, and create economic opportunities** in an ever-changing digital world. By leveraging decentralized governance, ethical incentives, and cutting-edge technology, FE provides a **trust-based, inclusive, and scalable ecosystem** that allows members to learn, innovate, and earn—all while shaping the future.

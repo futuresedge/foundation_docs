@@ -1,14 +1,18 @@
 ---
 id: swot-analysis
 title: SWOT Analysis
-sidebar_position: 5
-description: ""
-# image: ""
+slug: strategy/swot-analysis
+description: "Strengths, weaknesses, opportunities & threats"
+sidebar:
+  label: 05. SWOT Analysis
+  order: 6
 tags: []
-draft: false
+# draft: false
 # keywords: []
-author: ""
+author: "Pete Argent"
 contributors: []
+graph:
+  visible: true
 ---
 
 **Future’s Edge SWOT Analysis & Recommendations**

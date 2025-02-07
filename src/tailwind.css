@@ -49,6 +49,10 @@ https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
   --sl-color-text-accent: #eded4d;
 }
 
+.sl-markdown-content h3 {
+  color: #ed9d4d;
+}
+
 header.header
   div.header.sl-flex
   div.title-wrapper.sl-flex
@@ -83,17 +87,17 @@ header.header
     /* font-family: "velocista", sans-serif; */
   }
 }
-.hero .tagline:where(.astro-jbfsktt5) {
+.hero .tagline {
   font-size: clamp(var(--sl-text-lg), calc(0.0625rem + 2vw), var(--sl-text-xl));
   font-weight: 700;
 }
-.sl-link-button:where(.astro-xwgiixxa).primary {
+.sl-link-button.primary {
   border-radius: 10px;
   padding: 0px 20px;
   font-style: italic;
 }
-.sl-link-button:where(.astro-xwgiixxa).primary:hover {
-  color: var(--sl-color-white);
+.sl-link-button.primary:hover {
+  color: var(--sl-color-text-accent);
   background-color: var(--sl-color-primary-500);
 }
 

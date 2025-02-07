@@ -29,6 +29,11 @@ export default defineConfig({
           autogenerate: { directory: "strategy" },
           collapsed: true,
         },
+        {
+          label: "Governance",
+          autogenerate: { directory: "governance" },
+          collapsed: true,
+        },
       ],
       lastUpdated: true,
       social: {

@@ -1,14 +1,18 @@
 ---
-id: stakedholders
+id: stakeholders
 title: Stakeholders
-# sidebar_position: 
-description: ""
-# image: ""
+slug: strategy/stakeholders
+description: "The ideal member profile for Future's Edge"
+sidebar:
+  label: 03. Stakeholders
+  order: 4
 tags: []
-draft: false
+# draft: false
 # keywords: []
-author: ""
+author: "Pete Argent"
 contributors: []
+graph:
+  visible: true
 ---
 
 

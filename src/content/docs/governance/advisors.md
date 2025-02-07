@@ -1,23 +1,26 @@
 ---
 id: advisors
 title: Advisors
-sidebar_position: 1
-description: ""
-# image: ""
+slug: governance/advisors
+description: "The Role of Advisors in Future's Edge"
+sidebar:
+  label: 04. Role of Advisors
+  order: 5
 tags: []
-draft: false
+# draft: false
 # keywords: []
-author: ""
+author: "Pete Argent"
 contributors: []
+graph:
+  visible: true
 ---
 
-That's a fantastic idea, Pete! Incorporating the experience and mentorship of older professionals (25-50 years old) into your movement, even in these early phases, could be incredibly beneficial. It allows you to leverage their expertise, networks, and wisdom, while still maintaining the youth-led focus.
+Future's Edge is a youth-led organisation which we define as less than 26 years old. People who are 26 years old or more and interested in participating, they can apply to becone an advisor.
 
-Here's how you can integrate these older professionals effectively:
 
-**1. Defining Their Roles:**
+### 1. Defining Their Roles:
 
-It's crucial to clearly define the roles of these older professionals to ensure they complement, and not overshadow, the youth leadership. Here are some ways they could contribute:
+It's crucial to clearly define the roles of the advisors to ensure they complement, and not overshadow, the youth leadership. Here are some ways they could contribute:
 
 * **Mentors/Advisors:** Provide guidance and support to the core team, offering advice, feedback, and access to their networks. They will NOT be making any decisions, and will act as advisors only.
 * **Skill-Specific Coaches:** Share their expertise in specific areas, such as technology, marketing, finance, or governance. They may provide short, focused workshops or one-on-one coaching sessions.
@@ -26,7 +29,7 @@ It's crucial to clearly define the roles of these older professionals to ensure 
 * **Trusted Guides:** Help navigate challenges and provide a grounding perspective based on their wider experience.
 * **Safety Support:** Offer guidance and support in making sure the movement is safe for the youth, building accountability structures, and developing safety policies and procedures.
 
-**2. Ensuring a Youth-Led Environment:**
+### 2. Ensuring a Youth-Led Environment:
 
 It's essential to maintain the youth-led nature of your movement. Here's how to do that:
 
@@ -37,7 +40,7 @@ It's essential to maintain the youth-led nature of your movement. Here's how to 
 * **Limited Number of Advisors:** Consider a small number of advisors to avoid overwhelming the youth core team.
 * **Rotation of Advisors:** To keep things fresh and ensure a wide range of perspectives, consider rotating through different advisors based on the projects or needs of the group.
 
-**3. Recruiting the Right Professionals:**
+### 3. Recruiting the Right Professionals:
 
 Here are some factors to consider when choosing professionals:
 
@@ -48,7 +51,7 @@ Here are some factors to consider when choosing professionals:
 * **Diversity:** Seek out professionals from diverse backgrounds and with diverse skill sets, to reflect your movement's focus on inclusion.
 * **Passion:** Select those who are passionate about the idea of building a better world.
 
-**4. Initial Communication:**
+### 4. Initial Communication:
 
 When reaching out to professionals, emphasize:
 
@@ -57,7 +60,7 @@ When reaching out to professionals, emphasize:
 * **Their Impact:** Highlight the opportunity to make a difference in the lives of young people and support a global movement for change.
 * **Their Connection to the Vision:** Ensure they understand the mission and vision and will support these, and not their own personal agendas.
 
-**5. Onboarding and Integration:**
+### 5. Onboarding and Integration:
 
 * **Introduction to Core Team:** Introduce the professional advisors to the youth core team, making clear their roles and responsibilities.
 * **Regular Check-Ins:** Establish regular online check-in meetings between the advisors and the youth core team.
@@ -65,7 +68,7 @@ When reaching out to professionals, emphasize:
 * **Open Communication:** Encourage an open dialogue that fosters mutual understanding and respect between youth members and advisors.
 * **Training/Preparation:** Before they start as advisors, it may be good to provide them with a short training that explains the needs and values of the organisation.
 
-**Benefits of Including Older Professionals:**
+### Benefits of Including advisors:
 
 * **Expertise and Guidance:** Access to real-world experience and specialized knowledge.
 * **Network and Connections:** Ability to reach potential partners, funders, and mentors.
@@ -73,11 +76,11 @@ When reaching out to professionals, emphasize:
 * **Strategic Direction:** Providing a broader perspective on the movement's goals and potential pathways.
 * **Enhanced Learning Opportunities:** Providing access to professional development and training for your members.
 
-**Incorporating this into Your Plan:**
+### Incorporating this into Your Plan:
 
 * **Target Specific Needs:** When you recruit professionals, think about areas where you need specific help (e.g., legal, finance, technology).
 * **Start Small:** Start with a small number of advisors and expand as needed.
 * **Let the Youth Lead:** Ensure that the youth members are always driving the movement.
 * **Regularly Re-evaluate:** Assess how the mentors are contributing, to ensure the system is working well.
 
-By carefully integrating the experience and expertise of older professionals, while maintaining a clear youth-led focus, you will create a powerful and well-rounded movement that is poised for lasting success. This approach combines youthful energy with wisdom, experience, and strategic guidance.
+By carefully integrating the experience and expertise of advisors, while maintaining a clear youth-led focus, you will create a powerful and well-rounded movement that is poised for lasting success. This approach combines youthful energy with wisdom, experience, and strategic guidance.

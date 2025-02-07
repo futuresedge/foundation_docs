@@ -2,9 +2,9 @@
 id: persona-profile
 title: Persona Profile
 slug: strategy/persona-profile
-description: "The cover page for the Future's Edge Strategy Documents."
+description: "The ideal member profile for Future's Edge"
 sidebar:
-  label: Persona Profile
+  label: 02. Persona Profile
   order: 3
 tags: []
 # draft: false
@@ -15,15 +15,14 @@ graph:
   visible: true
 ---
 
-**Future’s Edge Ideal Member Profile**
 
-## **Attract Amazing Members**
+## Attracting amazing members
 
 This template guides Future’s Edge through an engaging and thought-provoking activity to envision our ideal members and then aim to understand and empathize with them. By intentionally planning to attract ideal members, we increase our chances of finding and retaining them—so it’s crucial to have a clear idea of who they are.
 
 ---
 
-## **Section 1: Questions to Uncover the Ideal Member Profile**
+## Section 1: Uncovering the ideal member profile
 
 | Questions | Your Answers |
 | :---- | :---- |
@@ -42,7 +41,7 @@ This template guides Future’s Edge through an engaging and thought-provoking a
 
 ---
 
-## **Section 2: Empathy Map Questions**
+## Section 2: Empathy map questions
 
 | Questions | Your Answers |
 | :---- | :---- |
@@ -60,7 +59,7 @@ This template guides Future’s Edge through an engaging and thought-provoking a
 
 ---
 
-## **Section 3: Member Persona Profile**
+## Section 3: Member persona profile
 
 | Questions | Your Answers |
 | :---- | :---- |
@@ -74,6 +73,6 @@ This template guides Future’s Edge through an engaging and thought-provoking a
 
 ---
 
-## **Conclusion**
+## Conclusion
 
 This Ideal Member Profile represents the type of individuals Future’s Edge seeks to attract and empower. By understanding their motivations, behaviors, and challenges, we can refine our outreach, engagement strategies, and offerings to build a thriving, values-aligned community that shapes the future together.
