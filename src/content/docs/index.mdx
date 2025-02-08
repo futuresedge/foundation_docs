@@ -5,8 +5,6 @@ sidebar:
   label: Home
   order: 1
 template: splash
-next: false
-prev: false
 hero:
   title: Be all you can be
   tagline: Knowledge is power. Come get some!
@@ -24,45 +22,61 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 import { ShowcaseProfile } from 'starlight-showcases'
+import { Image } from 'astro:assets';
+import chooseAdventure from '../../assets/ChooseAdventure.webp';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Steps } from '@astrojs/starlight/components';
 
 ---
 <div class="home-page">
 
-  
-<h2 class="">Choose <span class="primary">(your own)</span> adventure</h2>
-![Choose your own adventure](../../assets/ChooseAdventure.webp)
+<h2 class="">Choose <span class="primary" style="font-size:1.5rem;">(your own)</span> adventure</h2>
+<Image src={chooseAdventure} alt="Choose your own adventure" />
 
-### You already have what we're looking for
-<p>You have a unique combination of strengths, skills, interests and experiences — and that is very valuable to Future's Edge and the world!</p>
+---
+
+## You already have what we^re looking for
+<p style="margin-bottom:40px;">You have a unique combination of strengths, skills, interests and experiences — and that is very valuable to Future's Edge and the world!</p>
 ![Choose your own adventure](../../assets/YouAreValued.webp)
 
 ---
 
-### Experience life on the Edge
+## Experience life on the Edge
 
-<ShowcaseProfile
-  entries={[
-    {
-      name: 'Vision',
-      picture: import('../../assets/icons/picture.svg'),
-      href: './vision/',
-      description:
-        "The 5 year vision and beyond for Future's Edge.",
-    },
-    {
-      name: 'Mission',
-      picture:import('../../assets/icons/crosshair.1.svg'),
-      href: './mission/',
-      description:
-        "The 5 year mission to build a fairer future.",
-    },
-    {
-      name: 'Values',
-      picture: import('../../assets/icons/compass.svg'),
-      href: './values/',
-      description:
-        "The core values at Future's Edge.",
-    },
-  ]}
-/>
+
+<Steps>
+
+1. Become a recruit
+
+    1. Apply to be a Special Agent in the world's most ambitious intelligence agency
+
+2. Report to field office
+
+    1. Attend your first field office briefing
+    2. Meetings are virtual by default
+    2. Meet your international colleagues
+    3. Begin your training missions
+    4. Attend weekly online briefings
+
+3. Complete missions
+
+    1. Choose between solo and collaborative missions
+    1. Meet new recruits from around the world
+    1. Create measurable social impact
+    1. Level up your skills
+    1. Earn your stripes and build your reputation
+
+4. Connect & grow
+
+    1. Develop your strengths and explore your interests
+    2. Design your achievement roadmap
+    3. Discover your leadership instincts
+
+5. Level up
+
+    1. See your value contribution grow 
+    1. Complete training missions and demonstrate your new skills
+    1. Pass the basic training requrements
+    1. Attend your promotion ceremony to receive your new rank and perks
+</Steps>
 </div>

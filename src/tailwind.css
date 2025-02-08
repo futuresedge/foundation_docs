@@ -1,13 +1,13 @@
 /** @format */
 
-/* @import url("https://fonts.cdnfonts.com/css/zosilla");
-@import url("https://fonts.cdnfonts.com/css/kuiper-belt");
-@import url("https://fonts.cdnfonts.com/css/nova-display");
-@import url("https://fonts.cdnfonts.com/css/icewave");
-@import url("https://fonts.cdnfonts.com/css/minal");
-@import url("https://fonts.cdnfonts.com/css/patinio-contexto");
+/* @import url("https://fonts.cdnfonts.com/css/zosilla"); */
+/* @import url("https://fonts.cdnfonts.com/css/kuiper-belt"); */
+/* @import url("https://fonts.cdnfonts.com/css/nova-display"); */
+/* @import url("https://fonts.cdnfonts.com/css/icewave"); */
+/* @import url("https://fonts.cdnfonts.com/css/minal"); */
+/* @import url("https://fonts.cdnfonts.com/css/patinio-contexto"); */
 @import url("https://fonts.cdnfonts.com/css/maxter-board-st");
-@import url("https://fonts.cdnfonts.com/css/jupiteroid"); */
+/* @import url("https://fonts.cdnfonts.com/css/jupiteroid"); */
 /* @import url("https://api.fontshare.com/v2/css?f[]=excon@1&f[]=array@700&display=swap"); */
 /* @import url("https://fonts.cdnfonts.com/css/velocista"); */
 /* @import url("https://fonts.cdnfonts.com/css/fourkid"); */
@@ -32,6 +32,8 @@
 /* @import url("https://fonts.cdnfonts.com/css/tempest-apache"); */
 /* @import url("https://fonts.cdnfonts.com/css/mobile-man"); */
 /* @import url("https://fonts.cdnfonts.com/css/karmatic-arcade"); */
+@import url("https://fonts.cdnfonts.com/css/fourkid");
+@import url(https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@1&f[]=space-grotesk@1&f[]=outfit@1&display=swap);
 
 @tailwind base;
 @tailwind components;
@@ -42,11 +44,22 @@ Add additional Tailwind styles to this file, for example with @layer:
 https://tailwindcss.com/docs/adding-custom-styles#using-css-and-layer
 */
 :root {
-  /* --font-sans: "zosilla", sans-serif; */
+  --font-sans: "outfit", sans-serif;
+  --__sl-font: "outfit", sans-serif;
   /* --sl-text-base: 24px; */
   /* --sl-content-width: 1500px; */
   /* --sl-color-text-accent: #4DEDED; */
   --sl-color-text-accent: #eded4d;
+}
+
+.site-title {
+  align-items: center;
+  gap: var(--sl-nav-gap);
+  font-size: var(--sl-text-h2);
+  font-weight: 600;
+  color: var(--sl-color-text-accent);
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .sl-markdown-content h3 {
@@ -58,23 +71,20 @@ header.header
   div.title-wrapper.sl-flex
   a.site-title.sl-flex
   span {
-  font-family: "Americorps Halftone", sans-serif;
-  /* font-family: "Dynamic brk", sans-serif; */
+  /* font-family: "Americorps Gradient", sans-serif; */
+  font-family: "fourkid", sans-serif;
   /* text-transform: uppercase; */
   font-weight: 400;
   font-style: italic;
 }
-.hero h1,
-.home-page h2,
-.home-page h3 {
+.hero h1 {
   /* font-family: "maxter board st", sans-serif; */
-  font-family: "Americorps Outline Extra-Condensed", sans-serif;
+  /* font-family: "Americorps Outline Extra-Condensed", sans-serif; */
+  font-family: "Americorps", sans-serif;
   /* text-transform: uppercase; */
   font-weight: 700;
 }
-.hero h1 {
-  font-size: clamp(6rem, calc(0.0625rem + 2vw), 3rem);
-}
+
 .hero {
   background-image: url("assets/CodeRed.jpg");
   height: 80vh;
@@ -83,7 +93,7 @@ header.header
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 20px;
-  padding: 50px;
+
   display: flex;
   align-items: end;
   .sl-link-button {
@@ -98,8 +108,9 @@ header.header
 }
 .sl-link-button.primary {
   border-radius: 10px;
-  padding: 0px 20px;
+  padding: 10px 20px;
   font-style: italic;
+  --sl-color-text-accent: #eded4d !important;
 }
 .sl-link-button.primary:hover {
   color: var(--sl-color-text-accent);
@@ -109,38 +120,58 @@ header.header
 .card {
   border-radius: 20px;
 }
-/* 
+
 @media (min-width: 50rem) {
   .sl-link-button.primary {
     border-radius: 10px;
     padding: 0px 10px;
   }
-} */
-
+  .hero {
+    padding: 50px;
+  }
+}
+.hero h1 {
+  font-size: clamp(3.5rem, calc(0.0625rem + 2vw), 3rem);
+  line-height: 0.75;
+  /* letter-spacing: 0.15em; */
+}
 .home-page {
   img {
     border-radius: 20px;
   }
   h2 {
-    /* font-size: clamp(var(--sl-text-lg), calc(0.0625rem + 2vw), var(--sl-text-xl)); */
-    font-size: 4rem;
+    font-size: clamp(2.5rem, calc(0.0625rem + 2vw), 3rem);
+    /* font-size: 4rem; */
     font-weight: 700;
-    line-height: 0.9;
+    line-height: 1.4;
+    letter-spacing: 0.15em;
+    font-family: "Maxter Board St", sans-serif;
+    margin: 40px 0 60px;
   }
   h3 {
-    /* font-size: clamp(var(--sl-text-lg), calc(0.0625rem + 2vw), var(--sl-text-xl)); */
-    font-size: 3rem;
+    font-size: clamp(2rem, calc(0.0625rem + 2vw), 3rem);
+    /* font-size: 3rem; */
     font-weight: 700;
     line-height: 0.9;
+    letter-spacing: 0.15em;
   }
   p {
     /* font-size: clamp(var(--sl-text-lg), calc(0.0625rem + 2vw), var(--sl-text-xl)); */
     font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1.2;
-    margin-bottom: 20px;
+    line-height: 1.4;
+    /* margin-bottom: 20px; */
   }
   h2 span.primary {
     color: #eded4d;
+  }
+  .sl-steps p {
+    margin: 40px 0 0;
+  }
+}
+
+@media (min-width: 50rem) {
+  .sidebar-pane {
+    background-color: transparent;
   }
 }
