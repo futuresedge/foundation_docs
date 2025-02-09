@@ -128,6 +128,7 @@ header.header
   }
   .hero {
     padding: 50px;
+    border: 10px solid #eded4d;
   }
 }
 .hero h1 {
@@ -174,4 +175,12 @@ header.header
   .sidebar-pane {
     background-color: transparent;
   }
+}
+
+.logo-test {
+  font-family: "fourkid", sans-serif;
+  font-size: 22rem;
+  font-weight: 700;
+  color: #eded4d;
+  letter-spacing: -0.1em;
 }

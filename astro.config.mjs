@@ -27,31 +27,6 @@ export default defineConfig({
         starlightHeadingBadges(),
         // starlightThemeObsidian(),
         // starlightSiteGraph(),
-        // starlightSidebarTopics([
-        //   {
-        //     label: "Documentation",
-        //     link: "/docs/",
-        //     icon: "open-book",
-        //     items: [
-        //       "foundation/foundation-introduction",
-        //       "foundation/vision",
-        //       "foundation/mission",
-        //       "foundation/values",
-        //       "governance/governance-introduction",
-        //       "governance/constitution",
-        //       "governance/councils",
-        //       "strategy/strategy-introduction",
-        //       "strategy/business-model-canvas",
-        //       "strategy/persona-profile",
-        //     ],
-        //   },
-        //     {
-        //       label: "Agent Handbook",
-        //       link: "/agent-handbook/",
-        //       icon: "information",
-        //       items: ["agent-handbook"],
-        //     },
-        //   ]),
       ],
       sidebar: [
         { label: "Home", link: "/" },
@@ -70,11 +45,17 @@ export default defineConfig({
           autogenerate: { directory: "governance" },
           collapsed: true,
         },
+        {
+          label: "Knowledge",
+          autogenerate: { directory: "knowledge" },
+          collapsed: true,
+        },
       ],
       lastUpdated: true,
       social: {
         github: "https://github.com/futuresedge",
       },
+      favicon: "/public/favicon.ico",
       customCss: ["./src/tailwind.css"],
       // components: {
       //   // Override the default Hero component.
