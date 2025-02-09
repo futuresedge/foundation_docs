@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 // import { ion } from "starlight-ion-theme";
 import icon from "astro-icon";
 import { locate } from "@iconify/json";
-// import starlightBlog from "starlight-blog";
+import starlightBlog from "starlight-blog";
 import starlightHeadingBadges from "starlight-heading-badges";
 // import starlightThemeObsidian from "starlight-theme-obsidian";
 // import starlightSiteGraph from "starlight-site-graph";
@@ -23,7 +23,12 @@ export default defineConfig({
     starlight({
       title: "Future's Edge",
       plugins: [
-        // starlightBlog(),
+        starlightBlog({
+          title: {
+            en: "Pete's Blog",
+            // fr: "Mon Blog",
+          },
+        }),
         starlightHeadingBadges(),
         // starlightThemeObsidian(),
         // starlightSiteGraph(),
