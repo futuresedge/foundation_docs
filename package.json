@@ -10,13 +10,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.31.1",
+    "@astrojs/starlight": "^0.32.0",
     "@astrojs/starlight-tailwind": "^3.0.0",
-    "@astrojs/tailwind": "^5.1.4",
+    "@astrojs/tailwind": "^6.0.0",
     "@iconify/json": "^2.2.302",
     "@sentry/astro": "^8.54.0",
     "@spotlightjs/astro": "^2.4.3",
-    "astro": "^5.1.5",
+    "astro": "^5.3.0",
     "astro-icon": "^1.1.5",
     "sharp": "^0.32.5",
     "starlight-blog": "^0.16.1",

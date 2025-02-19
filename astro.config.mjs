@@ -12,7 +12,7 @@ import starlightHeadingBadges from "starlight-heading-badges";
 // import starlightThemeObsidian from "starlight-theme-obsidian";
 // import starlightSiteGraph from "starlight-site-graph";
 // import starlightSidebarTopics from "starlight-sidebar-topics";
-import starlightCoolerCredit from "starlight-cooler-credit";
+// import starlightCoolerCredit from "starlight-cooler-credit";
 
 const huge = locate("hugeicons");
 
@@ -31,19 +31,19 @@ export default defineConfig({
       },
       plugins: [
         // ion(),
-        starlightCoolerCredit({
-          credit: {
-            title: {
-              en: "Getting ideas, see a problem?",
-              de: "Erstellt mit Astro",
-            },
-            href: "https://github.com/futuresedge/foundation_docs",
-            description: {
-              en: "You can create, edit and suggest changes!",
-              de: "Willst du deine eigene statische Website erstellen?",
-            },
-          },
-        }),
+        // starlightCoolerCredit({
+        //   credit: {
+        //     title: {
+        //       en: "Getting ideas, see a problem?",
+        //       de: "Erstellt mit Astro",
+        //     },
+        //     href: "https://github.com/futuresedge/foundation_docs",
+        //     description: {
+        //       en: "You can create, edit and suggest changes!",
+        //       de: "Willst du deine eigene statische Website erstellen?",
+        //     },
+        //   },
+        // }),
         // starlightBlog({
         //   title: {
         //     en: "Pete's Blog",
