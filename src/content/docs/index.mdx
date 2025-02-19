@@ -1,6 +1,9 @@
 ---
 title: Foundation Docs
 description: Begin your journey to the Edge
+# banner:
+#   content: |
+#     We just launched something cool!
 sidebar:
   label: Home
   order: 1
@@ -21,13 +24,16 @@ hero:
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import ListCard from '../../components/ListCard.astro'
 import { ShowcaseProfile } from 'starlight-showcases'
 import { Image } from 'astro:assets';
 import chooseAdventure from '../../assets/ChooseAdventure.webp';
 import { Tabs, TabItem } from '@astrojs/starlight/components';
 import { Steps } from '@astrojs/starlight/components';
+import { LinkButton } from '@astrojs/starlight/components';
 
 ---
+
 <div class="home-page">
 
 <h2 class="">Choose <span class="primary" style="font-size:1.5rem;">(your own)</span> <br />adventure</h2>
@@ -39,7 +45,7 @@ import { Steps } from '@astrojs/starlight/components';
   <div class="overlay" style="z-index:1;"></div>
   <div class="sl-flex stack astro-jbfsktt5"  style="z-index:5;" data-astro-source-file="/Users/peteargent/apps/000_future/foundation/node_modules/@astrojs/starlight/components/Hero.astro" data-astro-source-loc="45:29"> 
     <div class="sl-flex copy astro-jbfsktt5" data-astro-source-file="/Users/peteargent/apps/000_future/foundation/node_modules/@astrojs/starlight/components/Hero.astro" data-astro-source-loc="46:29"> 
-      <h1 id="_top" data-page-title="" class="astro-jbfsktt5" data-astro-source-file="/Users/peteargent/apps/000_future/foundation/node_modules/@astrojs/starlight/components/Hero.astro" data-astro-source-loc="47:5">You already have what we're looking for</h1> 
+      <h2 data-page-title="" class="astro-jbfsktt5" data-astro-source-file="/Users/peteargent/apps/000_future/foundation/node_modules/@astrojs/starlight/components/Hero.astro" data-astro-source-loc="47:5">You already have what we're looking for</h2> 
       <div class="tagline astro-jbfsktt5" data-astro-source-file="/Users/peteargent/apps/000_future/foundation/node_modules/@astrojs/starlight/components/Hero.astro" data-astro-source-loc="48:17">
         You have a unique combination of strengths, skills, interests and experiences — and that is very valuable to Future's Edge and the world!
       </div> 
@@ -58,6 +64,37 @@ import { Steps } from '@astrojs/starlight/components';
 
 ## Experience life on the Edge
 
+<div id="journey">
+
+<CardGrid stagger>
+  <Card title="Become a recruit" icon="pencil">
+    1. **Apply to be a Special Agent** in the world’s most ambitious intelligence agency
+    2. **Membership is free** and open to all
+    3. **Take your life to the next level** and make a difference
+  </Card>
+  
+  <Card title="Report to field office" icon="laptop">
+    1. Attend your first field office briefing
+    2. Meetings are virtual by default
+    2. Meet your international colleagues
+    3. Begin your training missions
+    4. Attend weekly online briefings
+  </Card>
+  <Card title="Become a recruit" icon="open-book">
+    - 1. **Apply to be a Special Agent** in the world’s most ambitious intelligence agency
+    - 2. **Membership is free** and open to all
+    - 3. **Take your life to the next level** and make a difference
+  </Card>
+  
+  <Card title="Report to field office" icon="open-book">
+    - 1. **Apply to be a Special Agent** in the world’s most ambitious intelligence agency
+    - 2. **Membership is free** and open to all
+    - 3. **Take your life to the next level** and make a difference
+  </Card>
+  
+  
+</CardGrid>
+</div>
 
 <Steps>
 
@@ -94,4 +131,40 @@ import { Steps } from '@astrojs/starlight/components';
     1. Pass the basic training requrements
     1. Attend your promotion ceremony to receive your new rank and perks
 </Steps>
+
+<div id="timeline-content">
+  <h1>Timeline</h1>
+
+  <ul class="timeline">
+    <li class="event" data-date="65Million B.C.">
+      <h3>Dinosaurs Roamed the Earth</h3>
+      <p>RAWWWWWWRRR 🐢🦂</p>
+    </li>
+    <li class="event" data-date="2005">
+      <h3>Creative Component Launched</h3>
+      <p>"We can be all things to all people!" 📣</p>    
+    </li>
+    <li class="event" id="date" data-date="2009">
+      <h3>Squareflair was Born</h3>
+      <p></p> <p>"We can be all things to Squarespace users!" 📣</p>    
+    </li>
+    
+    <li class="event" data-date="2021">
+      
+      <h3>Squareflair Today</h3>
+      
+      "We design and build from scratch!" 📣 When we say <em><strong>100% custom</strong></em> we mean it— and we build all sites on the Squarespace Developer platform.
+
+      Did you know that all of our pixels are hand-forged from the rarest of subpixels grown and harvested in the <em>Nerd Forest</em>? <br />🤜💥🤛
+      
+      Our success can be measured by lives and brands enhanced by 9+ years of 100% Squarespace-focused service!
+      
+      <a href="https://www.squareflair.com">squareflair.com</a>
+    </li>
+  </ul>
+</div>
+
+---
+
+<LinkButton href="/foundation/foundation-introduction/">Get started</LinkButton>
 </div>

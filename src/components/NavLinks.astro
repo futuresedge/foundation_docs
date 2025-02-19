@@ -1,0 +1,20 @@
+---
+import type { Props } from "@astrojs/starlight/props";
+import Default from "@astrojs/starlight/components/SocialIcons.astro";
+import { LinkButton } from "@astrojs/starlight/components";
+---
+
+<span style="margin-right: 1rem;">
+  <LinkButton href="/foundation/foundation-introduction/" variant="minimal"
+    >Docs</LinkButton
+  >
+</span>
+<span style="margin-right: 1rem;">
+  <LinkButton href="/foundation/about-futures-edge/" variant="minimal"
+    >About</LinkButton
+  >
+</span>
+<span style="margin-right: 1rem;">
+  <LinkButton href="/blog/" variant="minimal">Blog</LinkButton>
+</span>
+<Default {...Astro.props}><slot /></Default>
