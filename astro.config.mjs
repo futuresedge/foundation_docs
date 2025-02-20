@@ -4,26 +4,16 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
-// import { ion } from "starlight-ion-theme";
-import icon from "astro-icon";
-import { locate } from "@iconify/json";
-// import starlightBlog from "starlight-blog";
-import starlightHeadingBadges from "starlight-heading-badges";
-// import starlightThemeObsidian from "starlight-theme-obsidian";
-// import starlightSiteGraph from "starlight-site-graph";
-// import starlightSidebarTopics from "starlight-sidebar-topics";
-// import starlightCoolerCredit from "starlight-cooler-credit";
-
-const huge = locate("hugeicons");
+import starlightGiscus from "starlight-giscus";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://docs.futuresedge.agency",
 
   integrations: [
-    [icon()],
     starlight({
       title: "Future's Edge",
+      tableOfContents: true,
       description: "Future's Edge Foundation Documentation",
 
       editLink: {
@@ -31,6 +21,12 @@ export default defineConfig({
       },
       plugins: [
         // ion(),
+        starlightGiscus({
+          repo: "futuresedge/foundation_docs",
+          repoId: "R_kgDON0fBoA",
+          category: "Ideas",
+          categoryId: "DIC_kwDON0fBoM4CnHsn",
+        }),
         // starlightCoolerCredit({
         //   credit: {
         //     title: {
@@ -50,7 +46,7 @@ export default defineConfig({
         //     // fr: "Mon Blog",
         //   },
         // }),
-        starlightHeadingBadges(),
+        // starlightHeadingBadges(),
         // starlightThemeObsidian(),
         // starlightSiteGraph(),
       ],
@@ -88,6 +84,6 @@ export default defineConfig({
         SocialIcons: "./src/components/NavLinks.astro",
       },
     }),
-    tailwind({ applyBaseStyles: false }),
+    tailwind({ applyBaseStyles: true }),
   ],
 });
